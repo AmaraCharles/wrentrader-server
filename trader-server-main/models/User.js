@@ -30,7 +30,10 @@ const UsersSchema = new mongoose.Schema({
     type: String,
     required: false,
   },
-
+  profit: {
+    type: String,
+    required: false,
+  },
 
   serviceType: {
     type: String,
